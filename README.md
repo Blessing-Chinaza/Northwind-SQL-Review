@@ -282,6 +282,7 @@ Such insights are valuable for customer relationship management, as frequent buy
 ## Query 11: Top Products per Year
 
 ![Image 11](./image/image_11.png)
+
 **Review**: This query ranks products by total sales revenue per year and selects the top 3 products annually.
 The results show that Chartreuse verte consistently topped the chart across three years:
 
@@ -426,6 +427,7 @@ Such insights are critical for trend analysis, forecasting, and strategic planni
 ## Query 20: Product Revenue Categorization
 
 ![Image 20](./image/image_20.png)
+
 **Review**: This query categorizes products into High, Medium, and Low Revenue groups based on their total sales contribution.
 The classification provides a clear segmentation of product performance:
 
