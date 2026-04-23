@@ -54,9 +54,11 @@ Below are the core tables included in the schema:
 ---
 
 ### Below is the Entity Relationship Diagram
-*([![Image_ERD](./images/image_erd.png)].)*
+![ERD Diagram](./image/image_erd.png)  
+
 
 ---
+![Alt Text](./image/image_1.png)
 
 ## Analytical Questions
 
@@ -145,14 +147,14 @@ Each query is designed to answer a realistic business problem using the Northwin
 
 ## Query 1: Top 5 Customers by Spending
 
-[![Image_1](./images/image_1.png)]
+![Image 1](./image/image_1.png)
 
 **Review**  The table shows that 'QUICK-Stop' has spent the most across all orders, followed closely by 'Save-a-lot Markets'.
 This indicates that these customers are the highest contributors to revenue, making them prime candidates for loyalty programs, targeted promotions, or priority support. Their spending patterns highlight the importance of focusing on high-value customers to sustain business growth.
 
 ## Query 2: Employee Sales Performance
 
-[![Image_2](./images/image_2.png)]
+![Image 2](./image/image_2.png)
 
 **Review** The results show that Peacock Margaret is the top performer, generating the highest total sales among all employees.
 On the other end, Buchanan Steven recorded the lowest sales, indicating potential areas for improvement or differences in customer assignments.
@@ -160,7 +162,7 @@ This ranking provides valuable insight into employee performance, helping manage
 
 ## Query 3: Monthly Sales Trends
 
-[![Image_3a](./images/image_3a.png)]
+![Image 3a](./image/image_3a.png)
 
 **Review** The results show monthly sales trends starting from 1996-07 through 1998-05.
 This chronological breakdown highlights how sales evolved over time, making it possible to visualize growth patterns and seasonal fluctuations.
@@ -169,7 +171,7 @@ The steady progression across months also provides a foundation for year-over-ye
 
 ## Query 3b: Create View for Yearly Monthly Performance
 
- [![Image_3b](./images/image_3b.png)]
+ ![Image 3b](./image/image_3b.png)
 
 **Review** This query creates a view named YearlyMonthlyPerformance that stores monthly sales totals grouped by year and month.
 By encapsulating the logic in a view, analysts can easily reuse this dataset for trend analysis, reporting, and forecasting without rewriting the query each time.
@@ -177,7 +179,7 @@ The results span from 1996-07 through 1998-05, providing a structured foundation
 
 ## Query 4: Top Product per Category
 
-[![Image_4](./images/image_4.png)]
+![Image 4](./image/image_4.png)
 
 **Review** The query identifies the highest‑selling product in each category by ranking products based on total sales value.
 The results show that:
@@ -191,7 +193,7 @@ Products like Cte de Blaye demonstrate strong demand and profitability, making t
 
 ## Query 5: Orders with Many Products
 
- [![Image_5](./images/image_5.png)]
+ ![Image 5](./image/image_5.png)
 
 **Review** The query identifies orders that contain more than 5 distinct products.
 The results show that 4 rows were affected, with the standout being:
@@ -204,7 +206,7 @@ Such insights can help in customer segmentation, identifying wholesale buyers, a
 
 ## Query 6: Average Order Value per Customer
 
-[![Image_6](./images/image_6.png)]
+![Image 6](./image/image_6.png)
 
 **Review** This query calculates the average order value per customer and ranks them from highest to lowest.
 The results show that QUICK-Stop consistently tops the chart with an average order value of 4,195.84, making it the most valuable customer in terms of order size.
@@ -214,8 +216,7 @@ Such customers may benefit from personalized loyalty programs, premium offers, o
 
 ## Query 7: Shipper Delivery Comparison
 
-[![Image_7](./images/image_7.png)]
-
+![Image 7](./image/image_7.png)
 **Review** This query calculates the average delivery time per shipper by measuring the difference between the order date and the shipped date.
 The results show:
 
@@ -231,7 +232,7 @@ Such insights can guide logistics decisions, helping the company prioritize fast
 
 ## Query 8: Employees Above Company Average Sales
 
-[![Image_8](./images/image_8.png)]
+![Image 8](./image/image_8.png)
 
 **Review** This query compares each employee’s total sales against the company’s overall average sales.
 The results show that the following employees exceeded the company average of 150,495.40:
@@ -249,7 +250,7 @@ This insight is valuable for recognizing high achievers, designing incentive pro
 
 ## Query 9: Sales by Year and Region
 
-[![Image_9](./images/image_9.png)]
+![Image 9](./image/image_9.png)
 
 **Review** This query groups total sales by year and customer region (country), providing a breakdown of revenue across different geographies over time.
 The results highlight the top regions per year:
@@ -265,7 +266,7 @@ This analysis reveals how sales performance varies across regions and years. It 
 
 ## Query 10: Frequent Customers per Year
 
-[![Image_10](./images/image_10.png)]
+![Image 10](./image/image_10.png)
 
 **Review** This query identifies customers who placed more than 3 orders in a single year, highlighting repeat buyers and loyal customers.
 The results show that Save-a-lot Markets dominated the list with:
@@ -280,8 +281,7 @@ Such insights are valuable for customer relationship management, as frequent buy
 
 ## Query 11: Top Products per Year
 
-[![Image_11](./images/image_11.png)]
-
+![Image 11](./image/image_11.png)
 **Review** This query ranks products by total sales revenue per year and selects the top 3 products annually.
 The results show that Chartreuse verte consistently topped the chart across three years:
 
@@ -297,7 +297,7 @@ Such insights are valuable for strategic product planning, ensuring that top per
 
 ## Query 12: Customer Lifetime Value
 
- [![Image_12](./images/image_12.png)]
+ ![Image 12](./image/image_12.png)
 
 **Review** This query calculates the total lifetime revenue generated by each customer across all orders and ranks them accordingly.
 The results show that:
@@ -311,7 +311,7 @@ Such insights are critical for customer retention strategies, as high‑value cu
 
 ## Query 13: Employee Order Counts per Year
 
-[![Image_13](./images/image_13.png)]
+![Image 13](./image/image_13.png)
 
 **Review** This query ranks employees by the number of orders handled per year, showing who processed the most orders annually.
 The results highlight Peacock Margaret as the consistent top performer across three years:
@@ -328,7 +328,7 @@ Such insights are useful for performance evaluation, recognizing employees who c
 
 ## Query 14: Orders Without Discounts
 
-[![Image_14](./images/image_14.png)]
+![Image 14](./image/image_14.png)
 
 **Review**  This query retrieves all orders that had no discounts applied to any of their products.
 The results show that 830 rows were returned, meaning a significant number of customers placed orders at full price.
@@ -340,7 +340,7 @@ Such analysis can guide pricing strategies, promotional planning, and revenue op
 
 ## Query 15: Product Sales Contribution
 
-[![Image_15](./images/image_15.png)]
+![Image 15](./image/image_15.png)
 
 **Review**  This query calculates the number of orders and total sales value per product, ranking them by revenue contribution.
 The results show:
@@ -355,8 +355,7 @@ Such insights are crucial for inventory prioritization, marketing focus, and sup
 
 ## Query 16: Average Days Between Customer Orders
 
-[![Image_16](./images/image_16.png)]
-
+![Image 16](./image/image_16.png)
 **Review** This query calculates the average number of days between consecutive orders for each customer, providing insight into purchasing frequency.
 The results show:
 
@@ -375,7 +374,7 @@ Such insights are valuable for customer segmentation, targeted marketing, and de
 
 ## Query 17: High-Value Orders Above Company Average
 
-[![Image_17](./images/image_17.png)]
+![Image 17](./image/image_17.png)
 
 **Review**  This query identifies orders whose total value exceeds the company’s average order value, spotlighting exceptionally high-value transactions.
 The results show:
@@ -389,7 +388,7 @@ Such insights are useful for recognizing big-ticket customers, tailoring special
 
 ## Query 18: Employee-Customer Sales Contribution
 
-[![Image_18](./images/image_18.png)]
+![Image 18](./image/image_18.png)
 
 **Review** This query examines the relationship between employees and customers, showing how many orders each employee handled for specific customers.
 The results highlight Davolio Nancy as the top contributor:
@@ -404,7 +403,7 @@ Such insights are useful for performance evaluation, customer relationship manag
 
 ## Query 19: Yearly Sales Growth Analysis
 
-[![Image_19](./images/image_19.png)]
+![Image 19](./image/image_19.png)
 
 **Review**  This query calculates yearly total sales and compares each year’s performance with the previous year, showing both the absolute difference and percentage growth.
 The results reveal:
@@ -425,8 +424,7 @@ Such insights are critical for trend analysis, forecasting, and strategic planni
 
 ## Query 20: Product Revenue Categorization
 
-[![Image_20](./images/image_20.png)]
-
+![Image 20](./image/image_20.png)
 **Review** This query categorizes products into High, Medium, and Low Revenue groups based on their total sales contribution.
 The classification provides a clear segmentation of product performance:
 
@@ -500,6 +498,7 @@ Key learnings from this project include:
 
 I specialize in leveraging data-driven insights to support business decision-making, applying analytical expertise from both healthcare and corporate domains. My multidisciplinary background allows me to combine technical proficiency with practical problem-solving skills, delivering value across diverse industries.  
 
-**Contact:** [![LinkedIn](https://www.linkedin.com/in/blessing-nwokike/)] 
+**Contact:** [LinkedIn](https://www.linkedin.com/in/blessing-nwokike/)
+
 *For any inquiries regarding this project, please feel free to reach out. I am open to collaboration, networking, and professional opportunities.*
 
